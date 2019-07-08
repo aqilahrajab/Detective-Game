@@ -6,18 +6,38 @@
 </head>
 <body>
 
+<div class=container>
+<!-- Clue Slides -->
+<div class="slider-holder">
+        <span id="slider-image-1"></span>
+        <span id="slider-image-2"></span>
+        <span id="slider-image-3"></span>
+        <div class="image-holder">
+            <img src="images/clue1.jpg" class="slider-image" />
+            <img src="images/clue2.jpg" class="slider-image" />
+            <img src="images/clue3.jpg" class="slider-image" />
+        </div>
+        <div class="button-holder">
+            <a href="#slider-image-1" class="slider-change"></a>
+            <a href="#slider-image-2" class="slider-change"></a>
+            <a href="#slider-image-3" class="slider-change"></a>
+        </div>
+    </div>
+
+
 <!-- Suspect Images -->
-<img id="pic_s1" onclick="changeImage()" src="images/Testing-image.png" height="200" width="200">
+    <img id="pic_s1" onclick="changeImage()" src="images/Testing-image.png" height="200" width="200">
 
 <!-- Create input, for user to type in their final answer -->
 <input class ="starter" id="input" placeholder ="Final Deliberation"/>
-
+<p> Press enter to submit your final deduction </p>
 <!-- Create Display to show user result to their answer -->
 <p class="starter" id="output"></p>
 
-<p> Press enter to submit your final deduction </p>
+
 <!-- Script source link -->
 <script src="script.js"></script>
+</div>
 
 </body>
 </html>
