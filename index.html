@@ -6,27 +6,28 @@
 </head>
 <body>
 
-<div class=container>
-<!-- Clue Slides -->
-<div class="slider-holder">
-        <span id="slider-image-1"></span>
-        <span id="slider-image-2"></span>
-        <span id="slider-image-3"></span>
-        <div class="image-holder">
-            <img src="images/clue1.jpg" class="slider-image" />
-            <img src="images/clue2.jpg" class="slider-image" />
-            <img src="images/clue3.jpg" class="slider-image" />
-        </div>
-        <div class="button-holder">
-            <a href="#slider-image-1" class="slider-change"></a>
-            <a href="#slider-image-2" class="slider-change"></a>
-            <a href="#slider-image-3" class="slider-change"></a>
-        </div>
-    </div>
-
+<!-- Clues Slide -->
+<div class="slider">
+  <div class="slide" id="clue1" ><img src="images/clue1.jpg"></div>
+  <div class="slide" id="clue2" ><img src="images/clue2.jpg"></div>
+  <div class="slide" id="clue3" ><img src="images/clue3.jpg"></div>
+  <div class="slide" id="clue4" ><img src="images/clue4.jpg"></div>
+  <div class="slide" id="clue5" ><img src="images/clue5.jpg"></div>
+  <div class="slide" id="clue6" ><img src="images/clue6.jpg"></div>
+</div>
 
 <!-- Suspect Images -->
-    <img id="pic_s1" onclick="changeImage()" src="images/Testing-image.png" height="200" width="200">
+    <img id="pic_s1" onclick="changeImage()" src="images/Suspect1.png" height="200" width="200">
+
+    <img id="pic_s2" onclick="changeImage2()" src="images/Suspect2.png" height="200" width="200">
+
+    <img id="pic_s3" onclick="changeImage3()" src="images/Suspect3.png" height="200" width="200">
+
+    <img id="pic_s4" onclick="changeImage4()" src="images/Suspect4.png" height="200" width="200">
+
+    <img id="pic_s5" onclick="changeImage5()" src="images/Suspect5.png" height="200" width="200">
+
+    <img id="pic_s6" onclick="changeImage6()" src="images/Suspect6.png" height="200" width="200">
 
 <!-- Create input, for user to type in their final answer -->
 <input class ="starter" id="input" placeholder ="Final Deliberation"/>
