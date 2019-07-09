@@ -1,44 +1,140 @@
 .container {
-align-content: center;
+text-align: center;
 margin:50px;
  }
 
+ .grey {
+ 	background: #CCCFCF;
+ 	font-weight: bold;
+ 	font-size: 20px;
+ 	padding: 5px;
+ 	margin: 10px;
+ }
+
+.step1 {
+	font-size: 19px;
+	margin: 15px;
+}
+
+.step2 {
+	font-size: 19px;
+	margin: 15px;
+}
+
+.step3 {
+	font-size: 19px;
+	margin: 40px;
+}
+
+
 /*ClueSlides*/
+
+.mainSlide {
+text-align: center;
+margin: 0px 0px 10px 30px;
+
+}
+
 .slider {
   width: 800px;
   height: 400px;
   display: flex;
   overflow-x: auto;
   border: 0.5px #CCCFCF solid;
-
+  display: inline-block
 }
 
 .slides {
   display: flex;
   overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scroll-snap-align: start;
-  border: 1px black solid;
-
 
 }
+
 .slide {
-  width: 800px;
+  width: 700px;
   flex-shrink: 0;
   height: 100%;
   margin: 10px;
+}
 
+.deliberation {
+/*	border: 10px solid black;*/
+
+}
+
+.label {
+	font-size: 20px;
+	font-weight: bold;
 }
 
 /*Input and output styling*/
 .starter{
   font-size:30px;
-  padding:10px;
+  padding:5px;
   display:block;
-  margin:40px;
-  border:3px solid blue;
+  margin:0px;
+  background-color: #B0D9D9;
+  text-align: center;
+  display: inline-block;
 }
 
 #output{
-  background-color:pink;
+  background-color: white;
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+}
+
+.suspectImageSetOne {
+/*  border:3px solid blue;*/
+  width: 800px;
+  display: inline-block
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-top: 10px;
+
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.suspectImageSetTwo {
+/*  border:3px solid blue;*/
+  width: 800px;
+  display: inline-block
+}
+
+.suspectNumber1 {
+	align-content: center;
+	margin: 10px;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+span.number {
+	text-align: center;
+	margin: 80px;
+
+}
+
+.suspectNumber2 {
+	align-content: center;
+	margin: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	}
+
+footer {
+	font-size: 20px;
+	text-align: center;
+	margin: 0;
+	background-color: #CCCFCF;
+	padding: 20px;
+
 }

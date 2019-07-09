@@ -2,7 +2,7 @@
 console.log("Javascript Works!");
 
 var suspectList = [ "Suspect 1", "Suspect 2", " Suspect 3",];
-var suspectGuilty = [ 2 ];
+var suspectGuilty = [ 5 ];
 var suspectDeduced = [];
 console.log(suspectDeduced);
 console.log(suspectDeduced.length);
@@ -91,6 +91,6 @@ var inputHappened = function(parsedInput) {
         console.log(display);
     }
     else {
-        display("Try again, it's suspect number 2! Never trust to general impressions, my boy, but concentrate yourself upon details.");
-    }
+        display("Try again! Never trust to general impressions, my boy, but concentrate yourself upon details.");&&
+        display("-Sherlock Holmes")
 };
