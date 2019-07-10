@@ -38,7 +38,7 @@ alertButton.innerHTML = 'ARREST';
         display("Try again! Never trust to general impressions, my boy, but concentrate yourself upon details.");
         }
     };
-
+i
 //UPON CLICK USER IS ABLE TO CHANGE THE IMAGE AND ELIMINATE THE ELEMENT FROM THE ARRAY
 function changeImage(){
    if (image1.src.match("images/Suspect1.png") && promptSingleCard.length === 4) {
@@ -47,7 +47,7 @@ function changeImage(){
         console.log(suspectList);
         promptSingleCard.push(1);
         console.log(promptSingleCard);
-        alert("Are you sure?");
+        alert("Are you sure this is your final suspect?");
         document.getElementById("deliberation").appendChild(alertButton);
     }
     else if (image1.src.match("images/Suspect1.png")) {

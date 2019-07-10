@@ -13,16 +13,16 @@ margin:50px;
 
 .step1 {
 	font-size: 19px;
-	margin: 15px;
+	margin: 20px;
 }
 
 .step2 {
 	font-size: 19px;
-	margin: 15px;
+	margin: 20px;
 }
 
 .step3 {
-	font-size: 19px;
+	font-size: 20px;
 	margin: 40px;
 }
 
@@ -57,9 +57,23 @@ margin: 0px 0px 10px 30px;
   margin: 10px;
 }
 
-.deliberation {
-/*	border: 10px solid black;*/
+#deliberate {
+margin: 300px;
+border: 1px black solid;
+display: inline-block;
+font-size: 200px;
 
+}
+button {
+background-color: #C75052;
+font-family: Avenir;
+font-size: 200px;
+font-weight: bold;
+color: white;
+margin:90px;
+text-align: center;
+width:200px;
+height:100px;
 }
 
 .label {
@@ -80,8 +94,8 @@ margin: 0px 0px 10px 30px;
 
 #output{
   background-color: white;
-  font-family: 'Sacramento', cursive;
-  font-size: 40px;
+  font-family: 'Avenir', Arial;
+  font-size: 30px;
   width: 800px;
   margin: 30px;
 }
@@ -117,6 +131,7 @@ margin: 0px 0px 10px 30px;
 	margin: 10px;
 	font-size: 20px;
 	font-weight: bold;
+	color: white;
 
 }
 span.number {
@@ -130,6 +145,7 @@ span.number {
 	margin: 10px;
 	font-size: 20px;
 	font-weight: bold;
+	color: white;
 	}
 
 footer {
